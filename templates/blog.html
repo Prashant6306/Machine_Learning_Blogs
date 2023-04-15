@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+
+	<title>My Technical Website</title>
+	<style>
+		body {
+			font-family: 'Open Sans', sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #f9f9f9;
+		}
+
+		header {
+			background-color: #343a40;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+
+		h1 {
+			margin: 0;
+			font-size: 36px;
+		}
+
+		nav {
+			background-color: #f5f5f5;
+			border-top: 1px solid #ccc;
+			border-bottom: 1px solid #ccc;
+			padding: 10px 20px;
+		}
+
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		nav li {
+			margin: 0 10px;
+		}
+
+		nav a {
+			color: #333;
+			text-decoration: none;
+			font-size: 18px;
+			font-weight: bold;
+			transition: color 0.3s ease;
+		}
+
+		nav a:hover {
+			color: #343a40;
+		}
+
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+
+		.post {
+			background-color: #fff;
+			padding: 20px;
+			box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+			margin-bottom: 30px;
+			border-radius: 5px;
+		}
+
+		.post h2 {
+			font-size: 24px;
+			margin-top: 0;
+			margin-bottom: 10px;
+		}
+
+		.post p {
+			margin: 0;
+			line-height: 1.5;
+		}
+
+		.post a {
+			color: #007bff;
+			text-decoration: none;
+			font-weight: bold;
+			transition: color 0.3s ease;
+		}
+
+		.post a:hover {
+			color: #0056b3;
+		}
+
+		footer {
+			background-color: #343a40;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+
+		footer p {
+			margin: 0;
+			font-size: 14px;
+		}
+
+		@media (max-width: 768px) {
+			nav ul {
+				flex-direction: column;
+			}
+
+			nav li {
+				margin: 10px 0;
+			}
+
+			.post {
+				padding: 10px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>MLmindset</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+
+    <div class="container">
+        <div class="post">
+            <h2>What is Tokenization?</h2>
+            <p>1.Tokenization is the process of <span class="highlight">breaking down a text into smaller units</span> called tokens. These tokens can be individual words, phrases, or even sentences, depending on the level of granularity required. </p>
+            <style>
+                .highlight {
+                  background-color: yellow;
+                }
+              </style>
+            <br>
+            <p>2.The purpose of tokenization is to provide a standardized way of representing text that can be easily processed by computer programs.</p>
+            <br>
+            <div style="text-align: center;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/2QctxzPsNhw" title="My YouTube Video"></iframe>
+            </div>
+            
+              
+            <!-- Rest of the first blog post content -->
+        </div>
+        <div class="post">
+            <h2>Introduction to Machine Learning</h2>
+            <p>Machine learning is a type of artificial intelligence (AI) that involves teaching machines to learn from data without being explicitly programmed. It involves developing algorithms that can analyze and learn from data, and use that learning to make predictions or decisions. Machine learning has numerous applications in various industries, including healthcare, finance, and transportation.</p>
+            <!-- Rest of the second blog post content -->
+        </div>
+        </div>

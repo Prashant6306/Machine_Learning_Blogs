@@ -1,0 +1,40 @@
+.video-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1e1e1e;
+    color: #f9f9f9;
+  }
+
+  header {
+    background-color: #282828;
+  }
+
+  nav {
+    background-color: #2b2b2b;
+    border-top: 1px solid #888;
+    border-bottom: 1px solid #888;
+  }
+
+  nav a {
+    color: #f9f9f9;
+  }
+
+  .post {
+    background-color: #2b2b2b;
+    color: #f9f9f9;
+  }
+
+  .post a {
+    color: #007bff;
+  }
+
+  footer {
+    background-color: #282828;
+    color: #f9f9f9;
+  }
+}
